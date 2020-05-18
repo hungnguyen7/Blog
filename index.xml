@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hung Nguyen&#39;s Blog</title>
+    <link>https://hungnguyen7.github.io/myblog/</link>
+    <description>Recent content on Hung Nguyen&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 09 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hungnguyen7.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Film Photos</title>
+      <link>https://hungnguyen7.github.io/myblog/posts/2020/04/film-photos/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungnguyen7.github.io/myblog/posts/2020/04/film-photos/</guid>
+      <description>           Nhóc kế bên nhà ngoại      Vào một đêm khuya Tết năm 2019 cũng là đêm đầu tiên cầm máy film luôn      Đền dầu trên bàn thờ ông Táo      Cả gia đình nhà ngoại    </description>
+    </item>
+    
+    <item>
+      <title>My Projects</title>
+      <link>https://hungnguyen7.github.io/myblog/posts/2020/05/my-projects/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungnguyen7.github.io/myblog/posts/2020/05/my-projects/</guid>
+      <description>Random Quote Machine
+Markdown Previewer</description>
+    </item>
+    
+    <item>
+      <title>Bí kiếp &#34;tán&#34; git P2</title>
+      <link>https://hungnguyen7.github.io/myblog/posts/2020/04/b%C3%AD-ki%E1%BA%BFp-t%C3%A1n-git-p2/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungnguyen7.github.io/myblog/posts/2020/04/b%C3%AD-ki%E1%BA%BFp-t%C3%A1n-git-p2/</guid>
+      <description>Push lên remote repository Push
+Để chia sẻ lịch sử thay đổi của local repository mà bản thân đang có bằng remote repository, cần phải upload lịch sử thay đổi trong local repository.
+Vì thế, sẽ thực hiện thao tác gọi là Push trên Git. Khi thực hiện Push, lịch sử thay đổi của bản thân sẽ được upload lên remote repository và lịch sử thay đổi của remote repository sẽ có trạng thái giống với local repository.</description>
+    </item>
+    
+    <item>
+      <title>Bí kiếp &#34;tán&#34; git P3</title>
+      <link>https://hungnguyen7.github.io/myblog/posts/2020/04/b%C3%AD-ki%E1%BA%BFp-t%C3%A1n-git-p3/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungnguyen7.github.io/myblog/posts/2020/04/b%C3%AD-ki%E1%BA%BFp-t%C3%A1n-git-p3/</guid>
+      <description>Merge lịch sử thay đổi Merge
+Trường hợp trong khoảng thời gian từ sau khi pull lần cuối cho đến khi push lần tiếp theo, mà có người khác lỡ push rồi cập nhật remote repository, thì push của chính mình sẽ bị từ chối. Vì dữ liệu trên Origin đã không còn như lần pull cuối của chúng ta.
+Trong trường hợp này, cho đến khi thực hiện merge rồi tiếp nhận thay đổi của phần lịch sử khác, thì việc bản thân push lên sẽ bị từ chối.</description>
+    </item>
+    
+    <item>
+      <title>Bí kiếp &#34;tán&#34; git P1</title>
+      <link>https://hungnguyen7.github.io/myblog/posts/2020/04/b%C3%AD-ki%E1%BA%BFp-t%C3%A1n-git-p1/</link>
+      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungnguyen7.github.io/myblog/posts/2020/04/b%C3%AD-ki%E1%BA%BFp-t%C3%A1n-git-p1/</guid>
+      <description>Github là gì? GitHub là một dịch vụ lưu trữ trên web dành cho các dự án có sử dụng hệ thống kiểm soát Git revision. GitHub cung cấp chức năng social networking như feeds, followers và network graph để các Developer học hỏi kinh nghiệm làm việc thông qua lịch sử commit. Nếu comment dùng để mô tả chức năng của đoạn code, thì commit message trên Git dùng để mô tả hành động mà Dev vừa thực hiện trên code.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://hungnguyen7.github.io/myblog/about/</link>
+      <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hungnguyen7.github.io/myblog/about/</guid>
+      <description>Full name: Hung Nguyen
+Date of birth: 09/01/1999
+Phone number: 0369777872
+College: Can Tho University
+Speciality: Computer Science
+Languages Skill: C, Java, Javascript, HTML, CSS, PHP</description>
+    </item>
+    
+  </channel>
+</rss>

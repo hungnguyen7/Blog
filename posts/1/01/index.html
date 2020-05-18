@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Hung Nguyen ">
+<meta name="description" content="Branch là nhánh của repository:
+  Một nhánh tương tự như một không gian làm việc (workspace): dùng để ghi lại lịch sử sửa đổi.
+  Các nhánh độc lập với nhau: phát triển tính năng của 1 nhánh sẽ không làm ảnh hưởng đến các nhánh khác.
+  Các nhánh có thể hợp nhất lại với nhau. Thao tác này được gọi là merge." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="https://hungnguyen7.github.io/myblog/posts/1/01/" />
+
+
+    <title>
+        
+             :: Hung Nguyen&#39;s Blog 
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="https://hungnguyen7.github.io/myblog/main.min.73f55a8d452be4a71b2960620b80252cf69abd84d63fe7501abf0a39b1a70a78.css">
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://hungnguyen7.github.io/myblog/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://hungnguyen7.github.io/myblog/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://hungnguyen7.github.io/myblog/favicon-16x16.png">
+    <link rel="manifest" href="https://hungnguyen7.github.io/myblog/site.webmanifest">
+    <link rel="mask-icon" href="https://hungnguyen7.github.io/myblog/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://hungnguyen7.github.io/myblog/favicon.ico">
+    <meta name="msapplication-TileColor" content="#252627">
+    <meta name="theme-color" content="#252627">
+
+<meta itemprop="name" content="">
+<meta itemprop="description" content="Branch là nhánh của repository:
+  Một nhánh tương tự như một không gian làm việc (workspace): dùng để ghi lại lịch sử sửa đổi.
+  Các nhánh độc lập với nhau: phát triển tính năng của 1 nhánh sẽ không làm ảnh hưởng đến các nhánh khác.
+  Các nhánh có thể hợp nhất lại với nhau. Thao tác này được gọi là merge.">
+
+<meta itemprop="wordCount" content="624">
+<meta itemprop="image" content="https://hungnguyen7.github.io/myblog/"/>
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://hungnguyen7.github.io/myblog/"/>
+
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="Branch là nhánh của repository:
+  Một nhánh tương tự như một không gian làm việc (workspace): dùng để ghi lại lịch sử sửa đổi.
+  Các nhánh độc lập với nhau: phát triển tính năng của 1 nhánh sẽ không làm ảnh hưởng đến các nhánh khác.
+  Các nhánh có thể hợp nhất lại với nhau. Thao tác này được gọi là merge."/>
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://hungnguyen7.github.io/myblog/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd /home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://hungnguyen7.github.io/myblog/about/">About me</a></li><li><a href="https://hungnguyen7.github.io/myblog/posts/">Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>3 minutes
+
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title">
+                <a href="https://hungnguyen7.github.io/myblog/posts/1/01/"></a>
+            </h1>
+
+            
+
+            <div class="post-content">
+                <ul>
+<li>
+<p>Branch là nhánh của repository:</p>
+<ul>
+<li>
+<p>Một nhánh tương tự như một không gian làm việc (workspace): dùng để ghi lại lịch sử sửa đổi.</p>
+</li>
+<li>
+<p>Các nhánh độc lập với nhau: phát triển tính năng của 1 nhánh sẽ không làm ảnh hưởng đến các nhánh khác.</p>
+</li>
+<li>
+<p>Các nhánh có thể hợp nhất lại với nhau. Thao tác này được gọi là merge.</p>
+</li>
+<li>
+<p>Nhánh mặc định là master.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Các loại branch:</p>
+<ul>
+<li>
+<p>Branch local: là branch lưu ở local (tất nhiên rồi). Nó có thể được liên kết với 1 branch ở remote hoặc không. Hiển thị branch có trên local ta dùng lệnh <code>git branch</code>.</p>
+</li>
+<li>
+<p>Branch remote: là branch lưu ở remote. Branch này có thể fetch về local nhưng không tạo thêm branch ở local. Hiểu đơn giản là bạn có thể tải branch ở remote về nhưng không tạo 1 branch ở local với tên tương tự và tất nhiên sẽ không liên kết nó với một branch local nào cả. Để hiển thị branch remote có trên local dùng lệnh <code>git branch -r</code>.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="xóa-một-branch">Xóa một branch</h2>
+<ul>
+<li>
+<p><strong>Xóa một branch ở phía local</strong></p>
+<ul>
+<li>Cách 1:
+<ul>
+<li><code>git branch -delete &lt;branch_name&gt;</code></li>
+<li><code>git branch -d &lt;brand_name&gt;</code></li>
+</ul>
+</li>
+<li>Cách 2:
+<ul>
+<li><code>git branch -delete -force &lt;branch_name&gt;</code></li>
+<li><code>git branch -D &lt;branch_name&gt;</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Xóa một branch remote lưu ở local</strong></p>
+<ul>
+<li><code>git branch –delete –remotes &lt;remote_name&gt;/&lt;branch_name&gt;</code></li>
+<li><code>git branch -d -r &lt;remote_name&gt;/&lt;branch_name&gt;</code></li>
+</ul>
+</li>
+<li>
+<p><strong>Chú ý</strong></p>
+<ul>
+<li>Cách 1 chỉ xóa được branch local khi nó đã được Merge vào branch hiện tại và nó đã được push lên remote nếu nó có liên kết với một branch remote.</li>
+<li>Cách 2 sẽ xóa được mọi branch kể cả không thỏa mãn điều kiện kể trên.</li>
+<li>Chỉ xóa được branch khi đang ở branch khác.</li>
+</ul>
+</li>
+<li>
+<p><strong>Xóa một branch ở phía remote</strong></p>
+<ul>
+<li><code>git push &lt;remote_name&gt; –delete &lt;branch_name&gt;</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="push-một-branch-ở-local-lên-remote">Push một branch ở local lên remote</h2>
+<ul>
+<li>
+<p><strong>2 branch cùng tên</strong></p>
+<ul>
+<li><code>git push &lt;remote_name&gt; &lt;branch_name&gt;</code></li>
+</ul>
+</li>
+<li>
+<p><strong>2 branch khác tên</strong></p>
+<ul>
+<li><code>git push &lt;remote_name&gt; &lt;local_branch&gt;:&lt;remote_branch&gt;</code></li>
+<li><strong>Ví dụ:</strong> push branch master lên remote với tên là develop
+<ul>
+<li><code>git push origin master:develop</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="rebase">Rebase</h2>
+<p><strong>Thế nào là Rebase</strong>
+Rebase là một cách tích hợp các thay đổi từ nhánh này vào nhánh khác.</p>
+<p>Ngoài ra Rebase còn có tác dụng gộp các commit thành 1.</p>
+<pre><code>|==============|==============================================================================|
+|              |                         F---G---H  develop                                   |
+| Ban đầu      |                        /                                                     |
+|              |               A---B---C---D---E   master                                     |
+|==============|==============================================================================|
+|              |                 Rebase                  |             Merge                  |
+|==============|=========================================|====================================|
+| Branch       |                 develop                 |             master                 |
+| hiện tại     |                                         |                                    |
+|--------------|-----------------------------------------|------------------------------------|
+| Câu lệnh     |     git rebase master                   |     git merge develop              |
+|              |       hoặc                              |                                    |
+|              |     git rebase master develop           |                                    |
+|--------------|-----------------------------------------|------------------------------------|
+|              |                   F'---G'---H'  develop |           F---G---H  develop       |
+| Sơ đồ kết quả|                  /                      |          /         \               |
+|              | A---B---C---D---E   master              | A---B---C---D---E---I   master     |
+|--------------|-----------------------------------------|------------------------------------|
+| Nguyên lý    | - Lưu các commit F, G, H (các commit của| - Tạo một commit mới (I) áp dụng   |
+|              |   develop tính tới cha chung gần nhất)  |   tất cả các thay đổi của các      |
+|              | - Reset develop về commit C             |   commit trên develop tính đến     |
+|              | - Áp dụng các commit của master đến     |   cha chung gần nhất.              |
+|              |   cha chung gần nhất C                  |   Cụ thể ở đây là tất cả các       |
+|              | - Tạo các commit mới F', G', H' theo    |   commit F, G, H                   |
+|              |   sự thay đổi của các commit F, G, H    |                                    |
+|--------------|-----------------------------------------|------------------------------------|
+| Đặc điểm     | - Các commit của rebase-branch sẽ là    | - Lịch sử commit không bị thay đổi |
+|              |   các commit mới nhất                   |                                    |
+|              | - Lịch sử commit sẽ bị thay đổi         |                                    |
+|              |                                         |                                    |
+|              |                                         |                                    |
+|==============|=========================================|====================================|
+</code></pre>
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>624 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>0001-01-01 07:00 &#43;0700</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h"></span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+                        <span class="button previous">
+                            <a href="https://hungnguyen7.github.io/myblog/posts/2020/04/b%C3%AD-ki%E1%BA%BFp-t%C3%A1n-git-p1/">
+                                <span class="button__icon">←</span>
+                                <span class="button__text">Bí kiếp &#34;tán&#34; git P1</span>
+                            </a>
+                        </span>
+                    
+
+                    
+                </div>
+            </div>
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+                <span><a href="https://hungnguyen7.github.io/myblog/">Hung Nguyen</a></span>
+            
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="https://hungnguyen7.github.io/myblog/bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js" integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script>
+
+
+
+    </body>
+</html>

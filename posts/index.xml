@@ -1,0 +1,173 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Hung Nguyen&#39;s Blog</title>
+        <link>https://hungnguyen7.github.io/myblog/posts/</link>
+        <description>Recent content in Posts on Hung Nguyen&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+        <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
+        <atom:link href="https://hungnguyen7.github.io/myblog/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Film Photos</title>
+            <link>https://hungnguyen7.github.io/myblog/posts/2020/04/film-photos/</link>
+            <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://hungnguyen7.github.io/myblog/posts/2020/04/film-photos/</guid>
+            <description>           Nhóc kế bên nhà ngoại      Vào một đêm khuya Tết năm 2019 cũng là đêm đầu tiên cầm máy film luôn      Đền dầu trên bàn thờ ông Táo      Cả gia đình nhà ngoại    </description>
+            <content type="html"><![CDATA[<table>
+<thead>
+<tr>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><img src="https://live.staticflickr.com/7922/46350511285_b42c4d4be5_o_d.jpg" alt="img1"></td>
+</tr>
+<tr>
+<td align="center">Nhóc kế bên nhà ngoại</td>
+</tr>
+<tr>
+<td align="center"><img src="https://live.staticflickr.com/7804/32323182347_38cc83acf7_o_d.jpg" alt="img2"></td>
+</tr>
+<tr>
+<td align="center">Vào một đêm khuya Tết năm 2019 cũng là đêm đầu tiên cầm máy film luôn</td>
+</tr>
+<tr>
+<td align="center"><img src="https://live.staticflickr.com/7865/47265019271_15edb8b3d0_o_d.jpg" alt="img3"></td>
+</tr>
+<tr>
+<td align="center">Đền dầu trên bàn thờ ông Táo</td>
+</tr>
+<tr>
+<td align="center"><img src="https://live.staticflickr.com/7828/46350507655_43f768e91a_o_d.jpg" alt="img4"></td>
+</tr>
+<tr>
+<td align="center">Cả gia đình nhà ngoại</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+        </item>
+        
+        <item>
+            <title>My Projects</title>
+            <link>https://hungnguyen7.github.io/myblog/posts/2020/05/my-projects/</link>
+            <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://hungnguyen7.github.io/myblog/posts/2020/05/my-projects/</guid>
+            <description>Random Quote Machine
+Markdown Previewer</description>
+            <content type="html"><![CDATA[<p><a href="https://hungnguyen7.github.io/random-quote-machine/">Random Quote Machine</a></p>
+<p><a href="https://hungnguyen7.github.io/markdown-previewer/">Markdown Previewer</a></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Bí kiếp &#34;tán&#34; git P2</title>
+            <link>https://hungnguyen7.github.io/myblog/posts/2020/04/b%C3%AD-ki%E1%BA%BFp-t%C3%A1n-git-p2/</link>
+            <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://hungnguyen7.github.io/myblog/posts/2020/04/b%C3%AD-ki%E1%BA%BFp-t%C3%A1n-git-p2/</guid>
+            <description>Push lên remote repository Push
+Để chia sẻ lịch sử thay đổi của local repository mà bản thân đang có bằng remote repository, cần phải upload lịch sử thay đổi trong local repository.
+Vì thế, sẽ thực hiện thao tác gọi là Push trên Git. Khi thực hiện Push, lịch sử thay đổi của bản thân sẽ được upload lên remote repository và lịch sử thay đổi của remote repository sẽ có trạng thái giống với local repository.</description>
+            <content type="html"><![CDATA[<h2 id="push-lên-remote-repository">Push lên remote repository</h2>
+<p><strong>Push</strong></p>
+<p>Để chia sẻ lịch sử thay đổi của local repository mà bản thân đang có bằng remote repository, cần phải upload lịch sử thay đổi trong local repository.</p>
+<p>Vì thế, sẽ thực hiện thao tác gọi là Push trên Git. Khi thực hiện Push, lịch sử thay đổi của bản thân sẽ được upload lên remote repository và lịch sử thay đổi của remote repository sẽ có trạng thái giống với local repository.</p>
+<p><img src="https://backlog.com/git-tutorial/vn/img/post/intro/capture_intro3_1_1.png" alt="img"></p>
+<h2 id="clone-một-remote-repository">Clone một remote repository</h2>
+<p>Nếu có remote repository chứa lịch sử thay đổi của ai đó, thì sẽ có thể sao chép toàn bộ repository và bản thân có thể thao tác trên phần công việc đó.</p>
+<p><strong>Clone</strong></p>
+<p>Để sao chép remote repository, sẽ thực hiện thao tác gọi là &ldquo;clone&rdquo;.</p>
+<p>Khi thực hiện Clone, sẽ tải về toàn bộ nội dung của remote repository, và có thể tạo thành local repository ở máy khác.</p>
+<p><strong>Vì trong local repository đã clone về, lịch sử thay đổi cũng được sao chép nên có thể tham chiếu lịch sử hoàn toàn giống với repository gốc và có thể commit.</strong></p>
+<h2 id="pull-từ-remote-repository">Pull từ remote repository</h2>
+<p>Khi chia sẻ remote repository và nhiều người cũng thực hiện công việc, thì mọi người sẽ push lên remote repository. Khi đó, cần lấy nội dung thay đổi mà người khác đã push lên đem vào local repository của bản thân.</p>
+<p><strong>Pull</strong></p>
+<p>Để cập nhật local repository từ remote repository thì thực hiện thao tác gọi là Pull.</p>
+<p>Khi thực hiện Pull, sẽ tải lịch sử thay đổi mới nhất từ remote repository về, rồi đưa nội dung đó vào local repository của bản thân.</p>
+<p><img src="https://backlog.com/git-tutorial/vn/img/post/intro/capture_intro3_3_1.png" alt="img"></p>
+<p><strong>Trường hợp console, khi thực hiện push và pull nếu tĩnh lược tên của remote repository thì sẽ sử dụng tên của remote repository là origin. Chính vì vậy, trong remote repository đặt tên là &ldquo;origin&rdquo; là việc thông thường hay gặp.</strong></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Bí kiếp &#34;tán&#34; git P3</title>
+            <link>https://hungnguyen7.github.io/myblog/posts/2020/04/b%C3%AD-ki%E1%BA%BFp-t%C3%A1n-git-p3/</link>
+            <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://hungnguyen7.github.io/myblog/posts/2020/04/b%C3%AD-ki%E1%BA%BFp-t%C3%A1n-git-p3/</guid>
+            <description>Merge lịch sử thay đổi Merge
+Trường hợp trong khoảng thời gian từ sau khi pull lần cuối cho đến khi push lần tiếp theo, mà có người khác lỡ push rồi cập nhật remote repository, thì push của chính mình sẽ bị từ chối. Vì dữ liệu trên Origin đã không còn như lần pull cuối của chúng ta.
+Trong trường hợp này, cho đến khi thực hiện merge rồi tiếp nhận thay đổi của phần lịch sử khác, thì việc bản thân push lên sẽ bị từ chối.</description>
+            <content type="html"><![CDATA[<h2 id="merge-lịch-sử-thay-đổi">Merge lịch sử thay đổi</h2>
+<p><strong>Merge</strong></p>
+<p><img src="https://backlog.com/git-tutorial/vn/img/post/intro/capture_intro5_1_1.png" alt="img"></p>
+<p>Trường hợp trong khoảng thời gian từ sau khi pull lần cuối cho đến khi push lần tiếp theo, mà có người khác lỡ push rồi cập nhật remote repository, thì push của chính mình sẽ bị từ chối. Vì dữ liệu trên Origin đã không còn như lần pull cuối của chúng ta.</p>
+<p><img src="https://backlog.com/git-tutorial/vn/img/post/intro/capture_intro5_1_2.png" alt="img"></p>
+<p>Trong trường hợp này, cho đến khi thực hiện merge rồi tiếp nhận thay đổi của phần lịch sử khác, thì việc bản thân push lên sẽ bị từ chối. Lý do là vì khi không merge mà cứ ghi đè lên lịch sử, thì những thay đổi mà người khác đã push (commit C trong sơ đồ) sẽ bị mất.</p>
+<p><strong>Bằng cách merge, Git sẽ tự động tích hợp chổ thay đổi! Nhưng, cũng có trường hợp không thể tự tích hợp được.</strong></p>
+<h2 id="giải-quyết-xung-đột">Giải quyết xung đột</h2>
+<p>Như đã giải thích ở trang trước, thì khi thực hiện merge, Git sẽ tích hợp tự động những chỗ thay đổi. Tuy nhiên, cũng có trường hợp không thể tích hợp tự động được.</p>
+<p>Đó là trường hợp đã thay đổi ở nơi giống nhau trong file trên remote repository và local repository. Trường hợp này, vì nó không thể tự phán đoán được lấy thay đổi từ bên nào nên sẽ phát sinh lỗi.</p>
+<p>Những nơi phát sinh xung đột, Git sẽ chỉnh sửa nội dung file giống như sơ đồ bên dưới, nên cần phải chỉnh sửa bằng tay.</p>
+<p><img src="https://backlog.com/git-tutorial/vn/img/post/intro/capture_intro5_1_3.png" alt="img"></p>
+<p><strong>Phần phía trên dấu &lsquo;==&rsquo; là local repository, phía dưới được hiển thị là nội dung chỉnh sửa của remote repository.</strong></p>
+<p>Giống như sơ đồ tiếp theo, sau khi chỉnh sửa tất cả chỗ xung đột, nếu như tiến hành commit thì commit đã tích hợp thay đổi sẽ được tạo ra.</p>
+<p><img src="https://backlog.com/git-tutorial/vn/img/post/intro/capture_intro5_1_4.png" alt="img"></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Bí kiếp &#34;tán&#34; git P1</title>
+            <link>https://hungnguyen7.github.io/myblog/posts/2020/04/b%C3%AD-ki%E1%BA%BFp-t%C3%A1n-git-p1/</link>
+            <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://hungnguyen7.github.io/myblog/posts/2020/04/b%C3%AD-ki%E1%BA%BFp-t%C3%A1n-git-p1/</guid>
+            <description>Github là gì? GitHub là một dịch vụ lưu trữ trên web dành cho các dự án có sử dụng hệ thống kiểm soát Git revision. GitHub cung cấp chức năng social networking như feeds, followers và network graph để các Developer học hỏi kinh nghiệm làm việc thông qua lịch sử commit. Nếu comment dùng để mô tả chức năng của đoạn code, thì commit message trên Git dùng để mô tả hành động mà Dev vừa thực hiện trên code.</description>
+            <content type="html"><![CDATA[<h2 id="github-là-gì">Github là gì?</h2>
+<p>GitHub là một dịch vụ lưu trữ trên web dành cho các dự án có sử dụng hệ thống kiểm soát Git revision. GitHub cung cấp chức năng social networking như feeds, followers và network graph để các Developer học hỏi kinh nghiệm làm việc thông qua lịch sử commit. Nếu comment dùng để mô tả chức năng của đoạn code, thì commit message trên Git dùng để mô tả hành động mà Dev vừa thực hiện trên code.</p>
+<p>Một tài khoản GitHub với nhiều repositories và tham gia vào những project đa dạng khác nhau đem đến cho bạn nhiều lợi ích đáng kể, có thể thay đổi sự nghiệp của bạn.</p>
+<h2 id="git-là-gì">Git là gì?</h2>
+<p>Git là một hệ thống quản lý phiên bản phân tán (distributed version control system).</p>
+<p>Git giống các hệ thống quản lý phiên bản khác ở chỗ nó cũng hỗ trợ quản lý code và lịch sử thay đổi. Tuy nhiên, Git ưu việt hơn vì có khả năng tách nhánh (branch), hỗ trợ rất tốt cho teamwork, những việc như phân chia task, tổng hợp code trở nên dễ dàng hơn nhiều.</p>
+<h2 id="thế-nào-là-reponsitory-branch">Thế nào là reponsitory, branch?</h2>
+<p><strong>Repository</strong> (kho chứa) được hiểu đơn giản là nơi chứa tất cả những thông tin cần thiết để duy trì và quản lý các sửa đổi và lịch sử của toàn bộ project. Bằng việc đặt thư mục muốn quản lý lịch sử thay đổi dưới sự quản lý của repository, có thể ghi chép lại lịch sử thay đổi của thư mục và file trong thư mục đó.</p>
+<p>Tất cả dữ liệu của <strong>Repository</strong> đều được chứa trong thư mục bạn đang làm việc dưới dạng folder ẩn có tên là .git</p>
+<p><img src="https://backlog.com/git-tutorial/vn/img/post/intro/capture_intro1_2_1.png" alt="img"></p>
+<ul>
+<li><strong>Repository</strong> của Git được phân thành 2 loại là remote repository và local repository.
+<ul>
+<li>Remote repository: Là repository để chia sẻ giữa nhiều người và bố trí trên server chuyên dụng.</li>
+<li>Local repository: Là repository bố trí trên máy của bản thân mình, dành cho một người dùng sử dụng.</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://backlog.com/git-tutorial/vn/img/post/intro/capture_intro1_2_2.png" alt="img"></p>
+<p>Do repository phân thành 2 loại là local và remote nên với những công việc bình thường thì có thể sử dụng local repository và thực hiện trên toàn bộ máy sẵn có. Khi muốn công khai nội dung công việc mà bản thân đã làm trên local repository, thì sẽ upload lên remote repository rồi công khai. Thêm nữa, thông qua remote repository cũng có thể lấy về nội dung công việc của người khác.</p>
+<h2 id="commit-dùng-để-ghi-lại-thay-đổi">Commit dùng để ghi lại thay đổi</h2>
+<p>Để ghi lại việc thêm/ thay đổi file hay thư mục vào repository thì sẽ thực hiện thao tác gọi là Commit.</p>
+<p>Khi thực hiện commit, trong repository sẽ tạo ra commit (hoặc revision) để ghi lại sự khác biệt từ trạng thái đã commit lần trước đến trạng thái hiện tại.</p>
+<p>Commit này đang được chứa tại repository với các trạng thái nối tiếp với nhau theo thứ tự thời gian như trong hình dưới đây. Bằng việc lần theo commit này từ trạng thái mới nhất thì có thể hiểu được lịch sử thay đổi trong quá khứ hoặc nội dung thay đổi đó.</p>
+<p><img src="https://backlog.com/git-tutorial/vn/img/post/intro/capture_intro1_3_1.png" alt="img"></p>
+<p>Các commit này, được đặt tên bởi 40 ký tự alphabet không trùng nhau đã được tính toán từ thông tin commit. Bằng việc chỉ định tên này, có thể chỉ định commit từ trong repository.</p>
+<p><strong>Những thay đổi mang ý nghĩa khác nhau chẳng hạn như thêm chức năng hay sửa lỗi thì hãy cố gắng chia ra rồi commit. Để sau này khi xem lịch sử và tìm kiếm một nội dung thay đổi định sẵn sẽ dễ dàng hơn.</strong></p>
+<p>Khi thực hiện commit có yêu cầu nhập giải thích commit (commit message). Vì commit message là bắt buộc nên nếu để trống mà thực hiện thì commit sẽ thất bại.</p>
+<p><strong>Vì phần giải thích đó sẽ trở thành thông tin quan trọng khi bản thân xem lại lịch sử sau đó hay trường hợp tìm kiếm nội dung thay đổi mà người khác commit, nên hãy chú ý để viết giải thích sao cho dễ dàng hiểu được nội dung thay đổi. Viết giải thích theo hình thức tiêu chuẩn trên Git như sau:</strong></p>
+<pre><code>Dòng thứ 1: Tóm tắt nội dung thay đổi trong commit
+Dòng thứ 2: Dòng trống
+Dòng thứ 3 trở đi: Lý do đã thay đổi
+</code></pre><h2 id="working-tree-và-index">Working Tree và Index</h2>
+<p>Trên Git, những thư mục được đặt dưới sự quản lý của Git mà mọi người đang thực hiện công việc trong thực tế được gọi là working tree.</p>
+<p>Và trên Git, giữa repository và working tree tồn tại một nơi gọi là index. Index là nơi để chuẩn bị cho việc commit lên repository.</p>
+<p><img src="https://backlog.com/git-tutorial/vn/img/post/intro/capture_intro1_4_1.png" alt="img"></p>
+<p>Trên Git, khi đã thực hiện commit thì trạng thái sẽ không được ghi trực tiếp vào repository từ working tree, mà sẽ ghi trạng thái đã được thiết lập của index được xây dựng ở giữa đó. Vì thế, để ghi lại trạng thái của file bằng commit thì trước hết cần đăng ký file trong index.</p>
+<p>Với việc chèn index vào giữa như thế này, có thể thực hiện commit không bao gồm những file không cần thiết trong working tree, hay có thể đăng ký chỉ một phần thay đổi của file trong index rồi commit.</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
